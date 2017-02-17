@@ -15,5 +15,6 @@ FOUNDATION_EXPORT double SegmentFirebaseVersionNumber;
 FOUNDATION_EXPORT const unsigned char SegmentFirebaseVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <SegmentFirebase/PublicHeader.h>
-
+#import <SegmentFirebase/SEGFirebaseIntegration.h>
+#import <SegmentFirebae//SEGFirebaseIntegrationFactory.h>
 

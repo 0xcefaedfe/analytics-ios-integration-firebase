@@ -22,6 +22,8 @@
 		02073C981E57594F00F8300E /* GoogleInterchangeUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FBA5C557773EB8D3C3C1B2F6A43CE54 /* GoogleInterchangeUtilities.framework */; };
 		02073C991E57594F00F8300E /* GoogleSymbolUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98590BEB01517EC73F19043CBEB99477 /* GoogleSymbolUtilities.framework */; };
 		02073C9A1E57594F00F8300E /* GoogleUtilities.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CA0F60BCC032BFBDF763186B6D7452 /* GoogleUtilities.framework */; };
+		02073C9D1E575B3400F8300E /* SEGFirebaseIntegration.h in Headers */ = {isa = PBXBuildFile; fileRef = E9AE7880FEE2E88037ED86DAC859BE40 /* SEGFirebaseIntegration.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		02073C9E1E575B3400F8300E /* SEGFirebaseIntegrationFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 56DEDEF691BBEB285F941E7B02C3496F /* SEGFirebaseIntegrationFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		021C50274FF43A6F07E119D572C3ACB6 /* EXPMatchers+beginWith.h in Headers */ = {isa = PBXBuildFile; fileRef = 06926925346E329822DA432423365D4C /* EXPMatchers+beginWith.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0273D1A465C7FF46A5A58EA9AD132E88 /* SEGBluetooth.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E7C272BB379B210AF53A147E716D14F /* SEGBluetooth.m */; };
 		02C7E3EC1E1DFDD7046BD26A67E92686 /* EXPMatchers+contain.h in Headers */ = {isa = PBXBuildFile; fileRef = C51309988B925FD17FD4A2C922A02BFE /* EXPMatchers+contain.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -1935,6 +1937,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				02073C9D1E575B3400F8300E /* SEGFirebaseIntegration.h in Headers */,
+				02073C9E1E575B3400F8300E /* SEGFirebaseIntegrationFactory.h in Headers */,
 				02073C861E57532C00F8300E /* SegmentFirebase.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3305,6 +3309,7 @@
 				02073C881E57532C00F8300E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1333457A883E898E63B3545CABFFF859 /* Build configuration list for PBXNativeTarget "Pods-Segment-Firebase_Example" */ = {
 			isa = XCConfigurationList;
